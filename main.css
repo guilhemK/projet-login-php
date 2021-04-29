@@ -9,9 +9,9 @@ body{
 form{
     width: 100%;
     padding:30px;
-    border:1px solid black;
-    background-color: beige;
-    box-shadow: 0 0 20px 0 black, 0 5px 5px 0 black;
+    border:1px solid white;
+    background-color: lightblue;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0,0.2), 0 5px 5px 0 rgb(0, 0, 0,0.24);
 }
 #container h1{
     width: 38%;
@@ -28,7 +28,7 @@ input[type=text], input[type=password]{
     box-sizing: border-box;
 }
 input[type=submit] {
-    background-color: #53af57;
+    background-color: rgb(31, 58, 73);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -38,6 +38,6 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color: white;
-    color: #53af57;
-    border: 1px solid #53af57;
+    color: rgb(31, 58, 73);
+    border: 1px solid rgb(31, 58, 73);
 }
